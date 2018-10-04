@@ -1,0 +1,24 @@
+{
+    "name": "infinitiweb/yii2-doctrine",
+    "description": "Yii doctrine component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramazan Kamilov",
+            "email": "ramazan@kamilov.ru"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Infinitiweb\\YiiDoctrine\\": "src"
+        }
+    },
+
+    "require": {
+        "php": "^7.1",
+        "doctrine/orm": "^2.6",
+        "doctrine/migrations": "^1.8",
+        "yiisoft/yii2": "2.0.15.1"
+    }
+}
